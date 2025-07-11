@@ -32,7 +32,7 @@ Works great for quick notebook calls **and** large-scale batch jobs.
 
 ## 📦 Installation
 
-You can install the latest release
+You can install the latest release here
 
 ```bash
 $ pip install git+https://github.com/dsottimano/openai_categorizer_nlp.git@0.1.0
