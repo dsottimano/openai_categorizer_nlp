@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openai_categorizer_nlp"
+version = "0.1.0"
+description = "Entity extraction + text classification via OpenAI Structured Outputs"
+requires-python = ">=3.10"
+dependencies = [
+  "openai>=1.30",
+  "pydantic>=2.7",
+  "tqdm>=4.66",
+]
+
+[project.urls]
+Homepage = "https://github.com/dsottimano/openai_categorizer_nlp"
