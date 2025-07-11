@@ -32,6 +32,14 @@ Works great for quick notebook calls **and** large-scale batch jobs.
 
 ## 📦 Installation
 
+You can install the latest release
+
+```bash
+$ pip install git+https://github.com/dsottimano/openai_categorizer_nlp.git@0.1.0
+```
+
+Or for local development
+
 ```bash
 # Clone the repo and set up a virtual environment
 $ git clone https://github.com/dsottimano/openai-categorizer-nlp.git
