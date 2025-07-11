@@ -263,17 +263,4 @@ def upload_and_process_batches(
     return processed
 
 
-# ────────────────────────────────────────────────────────────────────────────
-#  Smoke-test
-# ────────────────────────────────────────────────────────────────────────────
-if __name__ == "__main__":
-    cats = ["is_boring", "is_clickbait", "is_cliffhanger"]
-    print(
-        parse_one(
-            "Bondi: Judge assigned to Trump cases ‘cannot be objective’",
-            categories=cats,
-            include_entities=True,
-            include_classification=True,
-            single_label=False,
-        )
-    )
+
